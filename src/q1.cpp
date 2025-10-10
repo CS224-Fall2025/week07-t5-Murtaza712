@@ -11,7 +11,8 @@ int FindHapiness(int n){
         n = n / 10;
     }
     
-    if (sum == 1) cout << "Happy Number!"; else cout << "Sad Number";
+    if (sum == 1) cout << "Happy Number!"; else cout << "Sad Number" << endl;
+    return 0;
 }
 
 int main(){
